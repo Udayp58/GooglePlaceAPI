@@ -32,7 +32,8 @@ public class StepDefination {
 		APIResource resourceAPI = APIResource.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
 		System.out.println("This new Line Added");
-		System.out.println("This new line added by uday");
+	//	System.out.println("This new line added by uday");
+	// commented in Develop branch
 
 		if (method.equalsIgnoreCase("POST")) {
 			Res = Request.when().post(resourceAPI.getResource());
